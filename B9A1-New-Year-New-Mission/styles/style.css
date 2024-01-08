@@ -38,3 +38,32 @@ header {
     font-weight: 400;
     margin-top: 177px;
 }
+
+.offer {
+    margin-top: 6000000px;
+    text-align: center;
+}
+
+.parcentage {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.container-text h5 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.container-text h2 {
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
