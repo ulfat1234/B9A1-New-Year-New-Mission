@@ -104,11 +104,17 @@ button {
     font-family: Inter;
     font-weight: 700;
     border-radius: 8px;
-    background-color: #F00;
+    background-color: rgb(255, 0, 0);
     padding: 16px 32px;
     color: #FFF;
     margin-left: 158px;
     cursor: pointer;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(11, 248, 7);
+
 }
 
 .party-container {
@@ -184,7 +190,22 @@ button {
     margin-bottom: 60px;
 }
 
-.img-container {
-    
+.img-box1 {
+    display: flex;
+    justify-content: space-between;
+}
 
+.img-box {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.img-box:hover {
+    transform: scale(1.1);
+}
+
+.img-box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
 }
